@@ -1,0 +1,98 @@
+@font-face {
+  font-family: myFont;
+  src: url(fonts/Ubuntu-Bold.ttf);
+}
+
+*{
+	font-family: myFont;
+}
+
+body{
+	margin:0;
+	padding:0;
+	background-color: #DCDCDC !important;
+	overflow-y: scroll;
+}
+
+header{
+	padding: 0px;
+	margin:0;
+	position: sticky;
+	top:0;
+	width: 100%;
+
+}
+.logo{
+	margin: 0px;
+	width: 50px;
+	height: 50px;
+}
+.navbar{
+	height: 75px;
+	width: 100%;
+	align-items: center;
+	background-color: #2691d8;
+}
+
+.search{
+	display: inline-flex;
+	background-color: #eff2f5;
+	padding:10px;
+	margin-left: 10px;
+	border-radius: 22px;
+}
+
+.search input{
+	padding-left: 20px;
+	border: none;
+	background-color: transparent;
+	outline-width: 0;
+}
+
+.search button{
+	border: none;
+	background-color: transparent;
+	outline-width: 0;
+}
+.search button img{
+	width: 20px;
+	height: 20px;
+}
+
+.navbar a{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	text-decoration: none;
+	color:white;
+	font-size: 25px;
+}
+
+.navbar ul{
+	margin:0px;
+	float:right;
+
+}
+
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-flex;
+	padding: 10px;
+}
+
+.navbar ul #active{
+	border-radius: 20px;
+	background: linear-gradient(0deg, #071c2b, #2691d8);
+}
+.navbar ul li a{
+
+	text-decoration: none;
+	color:white;
+	font-size: 25px;
+}
+.navbar ul li img{
+	width: 40px;
+	height: 40px;
+}
+
